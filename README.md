@@ -162,8 +162,12 @@ Results on logistic mode:
         score: 90.59999999999994
         run_time: 149.3864571
 ```
+### Explanation of Output
+- **Accuracy**: Represents the model’s prediction accuracy on the test dataset.
+- **Score**: A standardized metric based on accuracy thresholds, showing how well the model performs on a scale from 0-100 scaling linearly with accuracy.
+- **Runtime**: Total time taken to train and test the model, providing insight into the efficiency of the training process.
 
-The output will display accuracy, score, and runtime for the FNN model:
+The output will display accuracy, average loss, and runtime for the FNN model:
 ```console
 Running on CPU
 fnn
@@ -269,11 +273,6 @@ Test set: Avg. loss: 0.0020, Accuracy: 4239/10000 (42.39%)
 
 Total runtime: 123.44 secs
 ```
-
-### Explanation of Output
-- **Accuracy**: Represents the model’s prediction accuracy on the test dataset.
-- **Score**: A standardized metric based on accuracy thresholds, showing how well the model performs on a scale from 0-100 scaling linearly with accuracy.
-- **Runtime**: Total time taken to train and test the model, providing insight into the efficiency of the training process.
 
 ## Notes on Implementation
 - **Normalization**: Normalization is applied to all datasets to ensure consistent input distribution.
