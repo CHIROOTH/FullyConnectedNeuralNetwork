@@ -2,7 +2,7 @@ import timeit  # Module to measure execution time
 from collections import OrderedDict  # Ordered dictionary to store results in an organized way
 import torch  # PyTorch library
 from torchvision import transforms, datasets  # For dataset handling and transformations
-from main import logistic_regression  # Import logistic regression function from assignment
+from main import logistic_regression  # Import logistic regression function from main
 
 # Set multiprocessing sharing strategy to 'file_system' for compatibility across processes
 torch.multiprocessing.set_sharing_strategy('file_system')
