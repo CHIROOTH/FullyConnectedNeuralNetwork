@@ -10,6 +10,7 @@ This project implements and trains a **Logistic Regression** model and a **Feedf
 5. [Usage](#usage)
 6. [Class and Function Descriptions](#class-and-function-descriptions)
 7. [Hyperparameter Tuning](#hyperparameter-tuning)
+8. [Expected Output](#expected-output)
 
 ## Project Overview
 The goal of this project is to:
